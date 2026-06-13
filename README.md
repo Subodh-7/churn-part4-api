@@ -1,5 +1,5 @@
-# Part 4 — FastAPI Churn Scoring Service
-**Student:** Subodh Raut | **Dataset:** Masai D2C Churn Capstone Real Data
+# Part 4 — FastAPI Churn Scoring Service & Reproducible ML Workflow
+Subodh Raut
 
 ## Structure
 ```
