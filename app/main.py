@@ -12,7 +12,7 @@ THRESH=payload["threshold"]; METRICS=payload["metrics"]; LE=payload.get("le_dict
 print(f"Loaded: {len(FEAT)} features, threshold={THRESH:.3f}")
 
 app = FastAPI(title="D2C Churn Scoring API",version="1.0.0",
-    description="Predicts customer churn probability.")
+    description="Predicts customer churn probability")
 
 NUM=['recency_days','frequency_180d','monetary_180d','return_rate_180d','avg_discount_pct_180d',
     'avg_rating_180d','category_diversity_180d','ticket_count_90d','negative_ticket_rate_90d',
